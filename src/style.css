@@ -1,0 +1,112 @@
+header{
+    background-image: url(https://sportishka.com/uploads/posts/2021-12/1638482256_8-sportishka-com-p-bassein-dorozhki-krasivie-sportivnie-foto-8.jpg);
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-image: url(https://static.tildacdn.com/tild3631-6362-4562-b533-303766326630/dc1a200d10484994a895.jpg);
+    height: 100vh;
+    width: 100%;
+    margin: auto; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-image: url(https://sportishka.com/uploads/posts/2021-12/1638478992_73-sportishka-com-p-bassein-pod-vodoi-krasivie-sportivnie-foto-80.jpg);
+    height: 30vh;
+    width: 100%;
+    margin: auto; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* потом сделать так чтобы показывался нижний край картинки */
+    display: flex;
+}
+
+.heading{
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(33, 134, 168);
+}
+
+.parent-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 200px;
+}
+
+.child{
+    background-color: lightblue;
+    width: 600px;
+    border-radius: 5%;
+}
+
+.head{
+    background-color: lightblue;
+    border-radius: 150px 150px 150px 150px;
+    width: 700px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+.foot{
+    border-radius: 150px 150px 150px 150px;
+    width: 700px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.foot p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 2px 1px #000
+}
+
+.parent-img2020{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.img2020{
+    max-width: 1000%;
+    height: 300px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.gold{
+    color: gold;
+    text-shadow: 1px 1px rgb(107, 91, 0);
+    font-weight: bold;
+}
+
+.silver{
+    color: silver;
+    text-shadow: 1px 1px rgb(84, 84, 84);
+    font-weight: bold;
+}
+
+.bronze{
+    color: rgb(215, 126, 66);
+    text-shadow: 1px 1px rgb(108, 62, 31);
+    font-weight: bold;
+}
+
+.icon{
+    margin: 0 auto;
+}
