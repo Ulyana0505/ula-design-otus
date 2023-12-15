@@ -3,18 +3,17 @@
     padding: 0;
 }
 
-header{
+header {
     background-image: url(https://sportishka.com/uploads/posts/2021-12/1638482256_8-sportishka-com-p-bassein-dorozhki-krasivie-sportivnie-foto-8.jpg);
     height: 30vh;
     width: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-around;
 }
 
-.head{
+.head {
     background-color: lightblue;
     border-radius: 150px 150px 150px 150px;
     width: 700px;
@@ -24,26 +23,26 @@ header{
     font-size: 1.3rem;
 }
 
-.icon{
+.icon {
     margin: 0 auto;
 }
 
-main{
+main {
     background-image: url(https://static.tildacdn.com/tild3631-6362-4562-b533-303766326630/dc1a200d10484994a895.jpg);
     height: 100vh;
     width: 100%;
-    margin: auto; 
+    margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.heading{
+.heading {
     color: #ffffff;
     text-align: center;
     background-color: rgb(33, 134, 168);
 }
 
-.parent-info{
+.parent-info {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -52,7 +51,7 @@ main{
     padding: 30px;
 }
 
-.child{
+.child {
     display: flex;
     flex-direction: column;
     background-color: lightblue;
@@ -64,57 +63,57 @@ main{
     align-items: center;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.gold{
+.gold {
     color: gold;
     text-shadow: 1px 1px rgb(107, 91, 0);
     font-weight: bold;
 }
 
-.silver{
+.silver {
     color: silver;
     text-shadow: 1px 1px rgb(84, 84, 84);
     font-weight: bold;
 }
 
-.bronze{
+.bronze {
     color: rgb(215, 126, 66);
     text-shadow: 1px 1px rgb(108, 62, 31);
     font-weight: bold;
 }
 
-.parent-img2020{
+.parent-img2020 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.text-img2020{
+.text-img2020 {
     color: #ffffff;
     text-align: center;
 }
 
-.img2020{
+.img2020 {
     max-width: 1000%;
     height: 300px;
-    display: block; 
+    display: block;
     margin: 0 auto;
 }
 
-footer{
+footer {
     background-image: url(https://sportishka.com/uploads/posts/2021-12/1638478992_73-sportishka-com-p-bassein-pod-vodoi-krasivie-sportivnie-foto-80.jpg);
     height: 30vh;
     width: 100%;
-    margin: auto; 
+    margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
 }
 
-.foot{
+.foot {
     border-radius: 150px 150px 150px 150px;
     width: 700px;
     display: block;
@@ -122,5 +121,5 @@ footer{
     margin: auto;
     font-size: 1.5rem;
     color: #ffffff;
-    text-shadow: 2px 1px #000
+    text-shadow: 2px 1px #000;
 }
